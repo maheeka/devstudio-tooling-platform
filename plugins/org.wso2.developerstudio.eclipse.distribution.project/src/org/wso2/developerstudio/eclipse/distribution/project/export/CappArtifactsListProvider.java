@@ -193,6 +193,7 @@ public class CappArtifactsListProvider extends AbstractListDataProvider{
 				|| project.hasNature(Constants.DS_PROJECT_NATURE)
 				|| project.hasNature(Constants.DS_VALIDATOR_PROJECT_NATURE)
 				|| project.hasNature(Constants.ESB_PROJECT_NATURE)
+				|| project.hasNature(Constants.INTEGRATION_PROJECT_NATURE)
 				|| project.hasNature(Constants.JAXWS_PROJECT_NATURE)
 				|| project.hasNature(Constants.JAXRS_PROJECT_NATURE)
 				|| project.hasNature(Constants.WEBAPP_PROJECT_NATURE)
