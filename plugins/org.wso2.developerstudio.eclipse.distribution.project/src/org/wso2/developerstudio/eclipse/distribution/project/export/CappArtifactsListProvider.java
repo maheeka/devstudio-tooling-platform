@@ -162,7 +162,8 @@ public class CappArtifactsListProvider extends AbstractListDataProvider{
 				|| project.hasNature(Constants.GENERAL_PROJECT_NATURE)
 			    || isMultipleArtifactDSSProject(project) 
 			    || project.hasNature(Constants.CONNECTOR_PROJECT_NATURE)
-			    || project.hasNature(Constants.ANALYTICS_PROJECT_NATURE)){
+			    || project.hasNature(Constants.ANALYTICS_PROJECT_NATURE)
+			    || project.hasNature(Constants.INTEGRATION_PROJECT_NATURE)){
 				return true;
 			}
 		} catch (CoreException e) {
